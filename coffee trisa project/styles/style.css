@@ -1,0 +1,132 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazirmatn-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: vazir;
+}
+
+html{
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    background: darkslateblue   ;
+}
+
+/* header */
+#header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+/* logo */
+#header .logo-link img{
+    height: 60px;
+}
+/* navbar list */
+#header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* contact link */
+#header .contact-link{
+    background: darkslateblue;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+
+/* products list style */
+main .menu-list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 80px 40px;
+}
+main .menu-item{
+    background-color: #ffffff2c;
+    border-radius: 18px;
+    width: 29%;
+    color: white;
+    padding: 20px;
+}
+main .menu-list .menu-item .menu-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+main .menu-list .menu-item .menu-title{
+    border-top: 1px solid white;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+main .menu-list .menu-item .menu-info-box{
+    display: flex;
+    justify-content: space-between;
+}
+main .menu-list .menu-item .menu-info-box .order-link{
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* footer */
+#footer{
+    background: white;
+    padding: 20px;
+}
+#footer .footer-info-box{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+#footer .footer-info-box .footer-section{
+    width: 50%;
+}
+#footer .footer-info-box .footer-section .footer-title {
+    margin-bottom: 10px;
+}
+#footer .footer-info-box .footer-section .footer-text{
+    line-height: 35px;
+}
+#footer .footer-info-box .footer-link{
+    margin-bottom: 20px;
+}
+#footer .footer-copyright{
+    text-align: center;
+    margin-top: 40px;
+}
+#footer .go-top-link{
+     background: darkslateblue;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
